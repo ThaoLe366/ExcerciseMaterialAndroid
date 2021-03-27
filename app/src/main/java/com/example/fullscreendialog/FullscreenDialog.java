@@ -24,7 +24,7 @@ public class FullscreenDialog extends DialogFragment implements View.OnClickList
     }
     String account , evenName, address, startDay, endDay, startTime, endTime;
     boolean isFullDay;
-//    //Get view in layout
+//   //Get view in layout
 //    AutoCompleteTextView edtDropDown;
     private Callback callback;
 
@@ -35,7 +35,6 @@ public class FullscreenDialog extends DialogFragment implements View.OnClickList
         void onActionClick(String account, String evenName, String address,
                            String startDay, String endDay,
                            String startTime, String endTime,boolean isFullDay);
-
 
     }
 
@@ -57,7 +56,7 @@ public class FullscreenDialog extends DialogFragment implements View.OnClickList
 
 //        ArrayAdapter<CharSequence>  emailAdapter= ArrayAdapter.createFromResource(getActivity(),
 //                R.array.listAccount,R.layout.single_spinner_item );
-//        edtDropDown= view.findViewById(R.id.accDropDown);
+////        edtDropDown= view.findViewById(R.id.accDropDown);
 //        edtDropDown.setAdapter(emailAdapter);
        // TextView autoCompleteAccount= view.findViewById(R.id
         //Initial value for information of event
@@ -77,11 +76,12 @@ public class FullscreenDialog extends DialogFragment implements View.OnClickList
 
     return  view;
 
-    }
-    private  void getInfo()
+    }    private  void getInfo()
     {
 
     }
+
+
     @Override
     public void onClick(View v) {
             int id= v.getId();

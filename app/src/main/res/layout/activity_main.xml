@@ -16,7 +16,7 @@
            android:gravity="top"
            android:layout_height="wrap_content">
            <TextView
-               android:textSize="33dp"
+               android:textSize="22dp"
                android:id="@+id/tvGetInfo"
                android:layout_width="match_parent"
                android:layout_height="wrap_content"
@@ -37,7 +37,7 @@
            android:id="@+id/btnInfoDialog"
            android:layout_width="wrap_content"
            android:layout_gravity="center"
-           android:text="Get Info Dialog"
+           android:text="Customize Dialog"
            style="@style/Widget.MaterialComponents.FloatingActionButton"
            android:onClick="sendInfoDialog"
 
@@ -48,7 +48,7 @@
            android:id="@+id/btnInfoMaterDialog"
            android:layout_width="wrap_content"
            android:layout_gravity="center"
-           android:text="Get Info Dialog"
+           android:text="Material Customize Dialog"
            style="@style/Widget.MaterialComponents.FloatingActionButton"
 
            android:layout_height="wrap_content">

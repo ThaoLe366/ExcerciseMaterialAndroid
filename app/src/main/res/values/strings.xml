@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">FullscreenDialog</string>
+    <string name="show_dialog">Show Dialog</string>
+    <string name="enter_name">Enter name</string>
+    <string name="enter_mobile">Enter mobile number</string>
+    <string name="enter_address">Enter address</string>
+</resources>
